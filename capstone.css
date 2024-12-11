@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.outermostbox{
+    padding-right: 48px;
+    padding-left: 48px;
+    width: 1440px; /*sme fixed height check karna hai*/
+    height: 5817;   /*isme hug height check karna hai*/
+    min-height: 900px;
+}
+.header{
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+}
+.pagelinks{
+    display: inline-block;
+    color: white;
+}
+hr.solid {
+    border-top: 3px solid white;
+}
+.mainheading{ /*doubel check karo bhai*/
+    color: white;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+}
