@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: black;
 }
@@ -18,12 +20,80 @@ body{
     display: inline-block;
     color: white;
 }
-hr.solid {
-    border-top: 3px solid white;
-}
+
 .mainheading{ /*doubel check karo bhai*/
     color: white;
-    font-size: 120px;
+    font-size: 6vw;
     line-height: 120px;
     text-align: center;
+    width: 70vw;
+    font-family: "Chivo", sans-serif;
+    font-weight: 900;
+
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.mainpic{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 90vw;
+
+}
+h3{
+    color: white;
+
+}
+p{
+    color: white;
+}
+.project-holder{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+.projects{
+    text-align: center;
+    padding: 2rem;
+    width: 27vw;
+}
+
+.projects img{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+  }
+  
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+.div1{
+    width: 50%;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
 }
