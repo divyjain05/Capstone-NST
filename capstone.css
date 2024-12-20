@@ -180,6 +180,11 @@ ol{
 .fav-account{
     height: 4rem;
     width: auto;
+    border-radius: 50%;
+
+}
+.light{
+    color:#999999;
 }
 .bold{
     font-weight: 600;
