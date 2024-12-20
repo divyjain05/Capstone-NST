@@ -160,6 +160,7 @@ ol{
     display: flex;
     align-items: center;
     overflow-x: auto;
+    width: 100vw;
 }
 .testimony-card{
     border: 1px solid white;
@@ -192,6 +193,8 @@ ol{
     padding: 20px;
     border-top: 1px solid white;
     margin-top: 20px;
+    width: 100%;
+    
 }
 .head{
     width: 65%;
@@ -212,4 +215,24 @@ footer{
     border: 1px solid white;
     border-radius: 8px;
     padding: 20px;
+}
+@media (max-width:767px) {
+    .coolpic{
+        width: 100vw;
+    }
+    .head{
+        width: 100%;
+    }
+    .landing-page p {
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+       padding-left: 24vw;
+    }
 }
