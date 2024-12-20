@@ -2,6 +2,7 @@
 
 body{
     background-color: black;
+    font-family: "Chivo", sans-serif;
 }
 .outermostbox{
     padding-right: 48px;
@@ -11,7 +12,8 @@ body{
     min-height: 900px;
 }
 .header{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     font-size: 42px;
     font-weight: 500;
     color: white;
@@ -29,6 +31,7 @@ body{
     width: 70vw;
     font-family: "Chivo", sans-serif;
     font-weight: 900;
+    margin-top: 6rem;
 
 
 }
@@ -61,9 +64,16 @@ p{
     width: 100%;
 }
 .projects{
-    text-align: center;
+    text-align: left;
     padding: 2rem;
     width: 27vw;
+    line-height: 0.5;
+
+}
+
+.projects p{
+    text-align: left;
+    color: #999999;
 }
 
 .projects img{
@@ -82,7 +92,11 @@ p{
     padding: 2rem;
     text-align: center;
     display: flex;
-  }
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 3rem;
+    font-family: "Chivo", sans-serif;
+}
   
 .about h2 {
     font-size: 2rem;
@@ -96,4 +110,106 @@ p{
     display: flex;
     flex-direction: row;
     width: 50%;
+    color: white;
+}
+.landing-page h1,p{
+    color: white;
+    text-align: center;
+}
+.about-me-div{
+    display: flex;
+    justify-content: center;
+
+}
+ol{
+    list-style-type: none;
+    color: white;
+}
+.button{
+    padding: 10px 20px;
+    background-color: #928DD3;
+    border-radius: 8px;
+}
+.creation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Chivo", sans-serif;
+    height: 70vh;
+}
+.creation h1{
+    font-size: 3rem;
+    font-family: "Chivo", sans-serif;
+    color: white;
+    margin-bottom: -15px;
+}
+
+.testimony{
+    color: white;
+    font-family: "Chivo", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.testimony-card{
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px;
+}
+.testimony-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.fav-account{
+    height: 4rem;
+    width: auto;
+}
+.bold{
+    font-weight: 600;
+
+}
+.test-p{
+    width: 60%;
+    text-align: left;
+}
+.portfolio-about{
+    padding: 20px;
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+.head{
+    width: 65%;
+}
+.pt2{
+    width: 50%;
+    margin-left: auto;
+    text-align: left;
+}
+footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 40px 40px;
+    font-size: 2rem;
+}
+.btn-contact-me{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
 }

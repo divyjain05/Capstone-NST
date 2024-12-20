@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px;
+    font-family: "Chivo", sans-serif;
+
+}
+.logo{
+    color: white;
+    font-size: 3rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: "Chivo", sans-serif;
+}
